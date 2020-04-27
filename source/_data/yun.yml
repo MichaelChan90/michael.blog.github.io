@@ -181,4 +181,10 @@ local_search:
   enable: true
   src: /js/search/local-search.js
 
+# 搜索引擎搜索需要对域名备案
+#engine_search:
+#  enable: true
+#  href: "https://www.google.com/search?q=site:"
+#  domain: michaelchan90.github.io
+
 
