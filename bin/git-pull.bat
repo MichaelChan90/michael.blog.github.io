@@ -1,4 +1,4 @@
 SET path=%~dp0
-cd /d %path%
-cd ..
-git pull
+SET git_path=%1%
+
+start %git_path% --cd="%path%.." -c "git pull"
